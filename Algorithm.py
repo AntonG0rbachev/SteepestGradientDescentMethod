@@ -5,7 +5,7 @@ from autograd import grad
 
 function = lambda x1, x2: x1 ** 2 + 7 * x2 ** 2 - x1 * x2 + x1
 calc_t = lambda x1, x2: ((5 * x1 ** 2 - 32 * x1 * x2 + 4 * x1 + 197 * x2 ** 2 - 2 * x1 + 1) /
-                             (26 * x1 ** 2 - 458 * x1 * x2 + 10 * x1 + 2774 * x2 ** 2 - 32 * x2 + 2))
+                         (26 * x1 ** 2 - 458 * x1 * x2 + 10 * x1 + 2774 * x2 ** 2 - 32 * x2 + 2))
 x0 = numpy.array([1.1, 1.1])
 eps1 = 0.1
 eps2 = 0.15
