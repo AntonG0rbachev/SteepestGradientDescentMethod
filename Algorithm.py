@@ -1,5 +1,4 @@
 import math
-
 import numpy
 from autograd import grad
 
